@@ -33,7 +33,7 @@ h1 {
 }
 /* image-heading-text */
 /* feedback hadding */
-.image-heading-1{
+/* .image-heading-1{
   text-transform: uppercase;
 	font-family: "Arial Black";
 	font-size: 60px;
@@ -42,7 +42,7 @@ h1 {
 	-webkit-text-fill-color: transparent;
     background-attachment: fixed;
     background-size: cover;
-}
+} */
   /* image-cards-css */
   .wrapper,
 .single-card-1{
@@ -568,14 +568,15 @@ color: #fff;
     width: 24.99%;
 }
 }
-@media (min-width: 568px) {
-/* .footer-content-column {
-    width: 49.99%;
-} */
-}
+@media (min-width: 568px)
+/* {.footer-content-column  */
+  /* width: 49.99%;}  */
+ 
+
+
 /* footer */
 /* our team css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 :root {
     --font3: 'Roboto', sans-serif;
@@ -637,269 +638,5 @@ h1 {
     font-size: 1rem;
 }
 /* MEDIA */
-@media only screen and (min-width: 1200px) {
-    .img-hover-zoom--colorize img {
-        width: 200px;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .h1,
-    h1 {
-        font-size: 2rem;
-    }
-}
-/* our team css */
-/* contect-us-section */
-ul {
-  list-style: none;
-}
-input {
-  overflow: hidden;
-}
-.section-title {
-  position: relative;
-  font-size: 30px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin: 0 0 35px;
-}
-.sec-pad {
-  padding: 60px 0 0;
-  margin: 50px 0;
-}
-.contact-sec {
-  align-item: center;
-  display: flex;
-  background-color: #5cbde466;
-}
-.contact-sec .contact-ul li,
-.contact-ul b {
-  font-size: 20px;
-  margin: 10px 0;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  word-wrap: break-word;
-}
-.contact-sec .contact-ul i {
-  font-size: 18px;
-  padding: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-}
-.contact-detail a {
-  color: #000;
-  text-decoration: none;
-}
-.contact-sec .contact-ul li b:hover {
-  color: #f93;
-}
-.contact-sec .contact-ul li .fa-location-dot {
-  color: #f44337;
-  border: 2px solid #f4433790;
-}
-.contact-sec .contact-ul li .fa-phone {
-  color: #00b055;
-  border: 2px solid #00b05590;
-}
-.contact-sec .contact-ul li .fa-envelope {
-  color: #ff6347;
-  border: 2px solid #ff634790;
-}
-.contact-detail span {
-  width: 400px;
-  display: flex;
-  justify-content: center;
-}
-.contact-detail span a {
-  font-size: 20px;
-  padding: 6px 12px;
-  color: #000;
-  border-radius: 50%;
-  margin: 0px 5px;
-}
-.contact-detail span .fb {
-  color: #3b5998;
-  border: 3px solid #3b5998;
-}
-.contact-detail span .fb:hover {
-  color: #fff;
-  background-color: #3b5998;
-}
-.contact-detail span .insta {
-  color: #833ab4;
-  border: 3px solid #833ab4;
-}
-.contact-detail span .insta:hover {
-  color: #fff;
-  background-color: #833ab4;
-}
-.contact-detail span .twitter {
-  color: #00acee;
-  border: 3px solid #00acee;
-}
-.contact-detail span .twitter:hover {
-  color: #fff;
-  background-color: #00acee;
-}
-form.contFrm {
-  max-width: 396px;
-  margin: auto;
-}
-.inptFld {
-  width: 100%;
-  height: 50px;
-  border: 0;
-  margin: 0 0 10px;
-  border-radius: 8px;
-  padding: 0 20px;
-  font-size: 16px;
-  color: #000;
-}
-.inptFld:focus {
-  outline-offset: -4px;
-  outline: 1px solid #f93;
-}
-.contFrm textarea {
-  height: 75px;
-  padding-top: 5px;
-}
-.inptBtn {
-  height: 50px;
-  border: 0;
-  background: #00b055;
-  font-size: 14px;
-  color: #fff;
-  margin: auto;
-  letter-spacing: 1px;
-  cursor: pointer;
-  width: 100%;
-  max-width: 200px;
-}
-/* Responcive css Start */
-@media (max-width: 991px) {
-  .sec-pad {
-    padding: 20px 0 0px;
-  }
-  .contact-sec .contact-ul li,
-  .contact-ul b {
-    font-size: 18px;
-  }
-  .contact-sec .contact-ul i {
-    font-size: 14px;
-    padding: 6px;
-    margin-right: 6px;
-  }
-  .inptFld {
-    height: 40px;
-    margin: 0 0 10px;
-    padding: 0 14px;
-    font-size: 14px;
-  }
-}
-@media (max-width: 767px) {
-  .contact-detail span {
-    width: auto;
-  }
-  .contact-detail span a {
-    font-size: 18px;
-    padding: 5px 10px;
-    color: #000;
-    border-radius: 50%;
-    margin: 0px 5px 20px;
-  }
-}
-@media (max-width: 575px) {
-  .section-title {
-    font-size: 26px;
-    font-weight: 500;
-  }
-  .contact-sec {
-    border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
-  }
-  .contact-sec .contact-ul i {
-    border: none;
-  }
-  .inptFld {
-    height: 36px;
-    margin: 0 0 8px;
-    padding: 0 14px;
-    font-size: 14px;
-  }
-}
-@media (max-width: 480px) {
-  .contact-sec .contact-ul li,
-  .contact-ul b {
-    font-size: 16px;
-  }
-}
-/* contect-us-section */
-/* our-policy-section */
-.our-policy-section{
-   height: 100%;
-  background-color: #00acee;
-}
-/* our-policy-section */
-/* sign-up form */
-.container {
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(253, 101, 133, 1) 0%,
-    rgba(255, 211, 165, 1) 90%
-  );
-}
-.card {
-  border-radius: 10px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
-  width: 400px;
-  height: 400px;
-  background-color: #ffffff;
-  padding: 10px 30px;
-}
-.card_title {
-  text-align: center;
-  padding: 10px;
-}
-.card_title h1 {
-  font-size: 26px;
-  font-weight: bold;
-}
-.form input {
-  margin: 10px 0;
-  width: 100%;
-  background-color: #e2e2e2;
-  border: none;
-  outline: none;
-  padding: 12px 20px;
-  border-radius: 4px;
-}
-.form button {
-  background-color: #4796ff;
-  color: #ffffff;
-  font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  padding: 8px 15px;
-  width: 100%;
-}
-.card_terms {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-.card_terms input[type="checkbox"] {
-  background-color: #e2e2e2;
-}
-.card_terms span {
-  margin: 5px;
-  font-size: 13px;
-}
-.card a {
-  color: #4796ff;
-  text-decoration: none;
-}
+/* @ */
 /* sign-up form */
